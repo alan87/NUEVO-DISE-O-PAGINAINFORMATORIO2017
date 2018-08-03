@@ -1,0 +1,98 @@
+body{
+	background-color: black;
+}
+
+.b-red{
+	/*border: solid 3px red*/;
+} 
+
+.b-blue{
+	/*border: solid 3px blue*/;
+} 
+
+.b-green{
+	/*border: solid 3px green*/;
+} 
+
+.b-yellow{
+	/*border: solid 3px yellow*/;
+}
+
+.b-pink{
+	/*border: solid 3px pink*/;
+} 
+
+.alto-completo{
+	min-height: 100vh;
+}
+
+#text-1{
+	text-align: center;
+	color: white;
+}
+
+.pri{
+	/*height: 70%*/;
+	width: 26%;
+	border-radius: 50%;
+
+	position: absolute;
+    right: 2%;
+}
+
+.seg{
+	/*height: 85%;*/
+	width: 20%;
+	border-radius: 50%;
+
+	position: absolute;
+	top: 79%;
+    right: 23%;
+
+}
+
+.ter{
+	/*height: 120%;*/
+	width: 17%;
+	border-radius: 50%;
+
+	position: absolute;
+	top: 96%;
+    right: 1%;
+
+}
+
+.cua{
+	height: 190px;
+	width: 190px;
+	border-radius: 50%;
+
+	position: absolute;
+	top: 79%;
+    right: 3%;
+
+}
+
+.cin{
+	height: 170px;
+	width: 170px;
+	border-radius: 50%;
+
+/*	position: absolute;*/
+	top: 120%;
+    right: 20%;
+}
+
+#logo-bran{
+
+	height: 140%;
+	-webkit-box-shadow: 2px 0px 7px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    2px 0px 7px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         2px 0px 7px 0px rgba(50, 50, 50, 0.75);
+}
+
+
+/*texto palanquin regular 35,55
+numeros = 35,32*/
+
+/*z-index propiedad css*/

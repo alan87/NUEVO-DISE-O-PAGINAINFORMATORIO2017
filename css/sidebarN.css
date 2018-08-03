@@ -1,0 +1,47 @@
+
+
+#sidebar-wrapper {
+
+  
+  background: rgba(0,0,0,.75);
+
+  border-radius: 0 40px 40px 0;
+
+  border-right: solid 4px grey;
+
+
+-webkit-box-shadow: 18px 0px 52px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 18px 0px 52px -2px rgba(0,0,0,0.75);
+box-shadow: 18px 0px 52px -2px rgba(0,0,0,0.75);
+ 
+
+
+  position: fixed;
+  top: 10vh;
+  left: 0;
+
+  height: 85vh;
+ 
+}
+
+.sidebar-nav li{
+  height: 9.5vh;
+
+  /*border: 1px solid red;*/
+  text-align: center;
+
+}
+
+.sidebar-nav a{
+  /*color: yellow;*/
+  height: 100%;
+  /*border: 1px solid grey;*/
+  /*font-size: 1vh;*/
+
+  
+}
+
+.profile-ico{
+  height: 100%;
+  
+}

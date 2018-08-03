@@ -1,0 +1,161 @@
+
+h2{
+	margin: 0px;
+}
+
+#nav-top{
+	z-index: 9;
+	margin: 0px;
+}
+
+.row{
+	margin: 0px;
+}
+
+.container-fluid{
+	padding: 0;
+}
+
+
+/* content */
+#content {
+	z-index: 4;
+	position: relative;
+	}
+	#content section {
+		background-color: white;
+		border-top: solid black 1vh;
+		}
+		#section-1 ,
+		#frameless-parachute,
+		#english-channel,
+		#portada,
+		#about {
+			background-color: transparent;
+			height: 125vh;
+			text-align: center;
+			}
+		#portada h1{
+			padding-top: 30vh;
+			font-size: 7vw;
+			font-family: Georgia, serif;
+			font-weight: normal;
+			color: white;
+		}
+		#section-1 {
+			}
+		#section-1 img{
+			width: 80%;
+			margin: 2vh auto 2vh;
+		}
+		#t1{
+			margin: 2.5vh auto 2vh;
+		}
+		#section-1 p{
+			margin: 2vh auto 4vh;
+		}
+		#frameless-parachute {
+			}
+		#english-channel {
+			}
+			#content h2 {
+				font-size: 7vh;
+				font-family: Georgia, serif;
+				font-weight: normal;
+				}
+		#about {
+			}
+
+
+/* foreground (ballons/landscape) */
+/*#parallax-bg3 {
+	z-index: 3;
+	position: fixed;
+	left: 50%;
+	top: 0;
+	width: 940px;
+	margin-left: -470px;
+	}
+
+	#bg3-1 {
+		position: absolute;
+		top: -111px;
+		left: 355px;
+		}
+	#bg3-2 {
+		position: absolute;
+		top: 812px;
+		left: 321px;
+		}
+	#bg3-3 {
+		position: absolute;
+		top: 1628px;
+		left: 403px;
+		}
+	#bg3-4 {
+		position: absolute;
+		top: 2700px;
+		left: -85px;
+		}*/
+
+
+/* midground (clouds) */
+#parallax-bg2 {
+	z-index: 2;
+	position: fixed;
+	top: 0px;
+	left: 50%;
+	}
+	#bg2-1 {
+		left: -50%;
+		position: relative;
+		height: 125vh;
+		}
+	#bg2-2 {
+		left: -50%;
+		position: relative;
+		height: 125vh;
+		z-index: 3;
+		}
+	#bg2-3 {
+		right: 50%;
+		position: relative;
+		height: 130vh;
+		z-index: 4;
+		}
+	#bg2-4 {
+		right: 50%;
+		position: relative;
+		height: 130vh;
+		z-index: 5;
+		}
+
+/* background (clouds) */
+
+/*#parallax-bg1 {
+	z-index: 1;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	}
+	#bg1-1 {
+		z-index: 1;
+		position: absolute;
+		width: 100%;
+		}
+	#bg1-2 {
+		z-index: 2;
+		position: absolute;
+		top: 800px;
+		width: 100%;
+		}
+	#bg1-3 {
+		position: absolute;
+		top: 900px;
+		left: -220px;
+		}
+	#bg1-4 {
+		position: absolute;
+		top: 1020px;
+		left: 450px;
+		}*/

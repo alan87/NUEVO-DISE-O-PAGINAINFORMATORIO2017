@@ -1,0 +1,35 @@
+
+
+#sidebar-wrapper {
+
+  
+  background: #000;
+
+  position: fixed;
+  top: 15vh;
+  left: 0;
+
+  height: 70vh;
+ 
+}
+
+.sidebar-nav li{
+  height: 10vh;
+  /*border: 1px solid red;*/
+  text-align: center;
+
+}
+
+.sidebar-nav a{
+  /*color: yellow;*/
+  height: 100%;
+  /*border: 1px solid grey;*/
+  font-size: 5vh;
+
+  
+}
+
+.profile-ico{
+  height: 100%;
+  
+}

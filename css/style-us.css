@@ -1,0 +1,591 @@
+
+@font-face{
+	font-family: = "Catamaran-Regular";
+	src:url(../../fonts/Catamaran/Catamaran-Regular.ttf);
+}
+
+@font-face{
+	font-family: = "DroidSans-Regular";
+	src:url(../../fonts/Droid_Sans/DroidSans-Regular.ttf);
+}
+
+/*@font-face{
+	font-family: = "Pacifico";
+	src:url(../../fonts/Pacifico/Pacifico-Regular.ttf);
+}
+*/
+
+
+
+
+
+/*Solución para los espacios a los costados*/
+/*Pero rompe todo el resto*/
+
+/*
+.container-fluid{
+			padding: 0;
+			
+			}
+
+.row{
+		margin: 0px;
+		}
+
+*/
+
+/*fin solucion de los costados*/
+
+
+
+.container-fluid-fix{
+			padding: 0!important;
+			
+			}
+
+.row-fix{
+		margin: 0px!important;
+		}
+
+
+
+
+
+#header{
+	
+	background: url(../img/banner.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+#portada{
+
+	height: 100vh;
+}
+
+#todos{
+	
+	background: transparent;
+	background-color: transparent;
+	padding-bottom: 50vh;
+	padding-top: 50vh;
+
+}
+
+.profiles-row{
+	width: 100%;
+}
+
+.profiles-row a img{
+	width: 100%;
+}
+
+#profile{
+	padding-top: 50vh;
+	padding-bottom: 50vh;
+
+	background: url(../img/fondo.jpg) center center fixed;
+	background-size: cover;
+}
+
+.profile-container{
+	
+
+	background-color: rgba(240, 240, 240, .8);
+
+	-webkit-box-shadow: 3px 15px 40px 0px rgba(0,0,0,0.58);
+	-moz-box-shadow: 3px 15px 40px 0px rgba(0,0,0,0.58);
+	box-shadow: 3px 15px 40px 0px rgba(0,0,0,0.58);
+
+	margin-bottom: 10vh;
+
+	height: 50vh;
+}
+
+.personal-look{
+	z-index: 1;
+	background-color: transparent;
+}
+
+.personal-info{
+	z-index: 0;
+	background-color: #F0F0F0;
+	padding: 0 5%;
+    box-sizing: content-box;
+    border-radius: 8px;
+	
+}
+
+.personal-info h3{
+
+		font-family: = "Catamaran-Regular";
+}
+
+
+.skill h4{
+	font-family: 'Catamaran', sans-serif;
+
+}
+
+.personal-data h1{
+	color: white;
+	font-family: 'Pacifico', cursive;
+
+	
+	margin-top: 4%!important;
+
+	text-align: right;
+
+	background-color: #0000C0;
+	text-shadow: 0px 3px 1px rgba(0, 0, 0, 0.62);
+}	
+
+.apellido{
+	color: white;
+	margin-right: 10%;
+
+}
+
+.perfil-nombre{
+	color: #30A0FD;
+	margin-right: 5%;
+}
+
+.foto-perfil a img{
+	width: 100%;
+	border: 6px solid #00A0FF;
+	
+}
+
+.redes-sociales{
+	text-align: center;
+	
+}
+
+.skill h4{
+	margin-top: 0;
+	
+}
+
+.redes-container{
+
+	box-sizing: content-box;
+}
+
+
+
+
+
+.icon-todos{
+
+}
+
+.icon-fb{
+
+	background-color: #637AAE;
+	border-radius: 50%;
+	border: solid 1px ;
+	
+	padding: 5px;
+	margin: 0 5px; 
+
+
+}
+
+
+.icon-ln{
+	background-color: #0077b7;
+	border-radius: 50%;
+
+	padding: 5px;
+	margin: 0 5px;
+
+}
+
+
+.icon-tw{
+	background-color: #55acef;
+	border-radius: 50%;
+
+	padding: 5px;
+	margin: 0 5px;
+}
+
+.icon-gh{
+	background-color: #000000;
+	border-radius: 50%;
+
+	padding: 5px;
+	margin: 0 5px;
+
+}
+
+.icon-blank{
+	background-color: #000000;
+	border-radius: 50%;
+
+	padding: 5px;
+	margin: 0 5px;
+}
+
+
+.link-icon{
+	color: white;
+}
+
+
+
+
+.barra-progreso{
+	text-align: right;
+	
+	-webkit-box-shadow: inset -3px 1px 10px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset -3px 1px 10px 2px rgba(0,0,0,0.75);
+	box-shadow: inset -3px 1px 10px 2px rgba(0,0,0,0.75);
+
+
+}
+
+
+.progress-style{
+	border: solid 1px black;
+	background-color: #555555;
+
+	margin-bottom: 8px;
+
+	-webkit-box-shadow: inset -3px 1px 10px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset -3px 1px 10px 2px rgba(0,0,0,0.75);
+	box-shadow: inset -3px 1px 10px 2px rgba(0,0,0,0.75);
+
+	
+}
+
+.progress-numero-porcentaje{
+
+	float: right;
+	color: #F0F0F0;
+	text-shadow: 0px -1px 10px rgba(255, 0, 0, 0.89);
+
+	font-family: = "DroidSans-Regular";
+}
+
+
+
+
+
+
+
+
+
+/* MEDIAS QUERIES */
+/* MEDIAS QUERIES */
+/* MEDIAS QUERIES */
+/* MEDIAS QUERIES */
+/* MEDIAS QUERIES */
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+	
+
+	.separador{
+		margin-bottom: 100px;
+	}
+
+
+
+
+	.personal-look{
+		margin-left: 5%;
+	}
+	.foto-perfil-container{
+		margin-left: 10%;
+	}
+
+  .personal-info{
+  	margin-left: 30%;
+  	margin-top: 50px;
+
+  	}
+
+
+
+
+  .personal-info{
+  	margin-top: 8%;
+
+  }
+
+	.personal-data h1{
+		
+		font-size: 7vw;
+		line-height: 7.8vw;
+		
+	}	
+
+	.personal-data h3{
+		text-align: center;
+		margin-top: 0;
+		margin-left: 0;
+		padding-left: 0;
+	}
+
+
+
+
+
+
+	.redes-sociales{
+		    margin-top: 50px;
+	}
+
+
+
+	.skill{
+
+		margin-top: 10%;
+
+		padding-bottom: 0px;
+	}
+
+	.skill h4{
+
+
+		padding-left: 0;
+		
+		margin-bottom: 0;
+
+
+	}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+
+
+	.separador{
+		margin-bottom: 100px;
+	}
+
+
+
+
+.personal-look{
+	margin-bottom: -10%;
+
+}
+
+.personal-info{
+
+  	margin-left: 250px;
+  	margin-top: 50px;
+
+  }
+
+
+
+
+  .personal-info{
+  	margin-top: 0;
+
+  }
+
+  	.personal-data{
+  		margin-top: -15%;
+    	margin-bottom: 130px;
+
+  	}
+
+	.personal-data h1{
+
+		margin-left: 20%;
+		font-size: 3.8vw;
+		line-height: 4.5vw;
+
+		
+	}	
+
+
+
+
+	.redes-sociales{
+		    margin-top: 50px;
+	}
+
+
+
+	.skill{
+
+		margin-top: 4%;
+
+		padding-bottom: 0px;
+	}
+
+	
+
+
+
+		.redes-container{
+			margin-left: 75px;
+			margin-top: -120px;
+		}
+
+
+
+
+	
+  
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 992px){
+	
+
+
+
+	.foto-perfil{
+		width: 140%;
+	}
+
+	.personal-info h1{
+	
+
+	margin-left: -25%;
+	
+
+	}
+
+	.redes-container{
+		
+		width: 160%;
+    	margin-left: -50px;
+
+	}
+
+	.personal-info h3{
+
+		padding-left: 30%;
+		padding-bottom: 6%;
+
+		}
+
+
+	.personal-data h1{
+	font-size: 3vw;
+	line-height: 3.8vw;
+	}
+
+
+
+	.redes-sociales{
+	margin-top: 5%;
+	padding-bottom: 10%;
+	}
+
+
+
+
+	/*PARA LAS TARJETAS INVERTIDAS INICIO*/
+
+	
+	.profile-cotainer{
+
+	}
+	.profile-container-invertido{
+		
+
+	}
+
+	.personal-info-invertido{
+		padding: 0 0;
+		padding-right: 20px;
+    	margin-left: -20px;
+    	padding-left: 20px;
+
+	}
+
+
+	.personal-info-invertido h1 {
+		text-align: left;
+    margin-left: 0;
+    margin-right: -70px;
+    padding-left: 10%;
+	}
+
+
+
+	/*PARA LAS TARJETAS INVERTIDAS FINAL*/
+
+
+
+
+
+  
+}
+.row {
+    margin: 0;
+}    
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+@media (min-width: 1200px) {
+
+
+
+
+	
+  
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
